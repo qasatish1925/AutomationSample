@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+ <UserName><![CDATA[//*[@id='email']]]></UserName>
+ <Password><![CDATA[//input[@id='pass']]]></Password>
+ <Login><![CDATA[//*[@value='Log In']]]></Login>
+ <Status><![CDATA[//*[@name='xhpc_message']]]></Status>
+ <Share><![CDATA[//button[@data-testid='react-composer-post-button']]]></Share>
+ 
+ <WalletHub>
+ <WUserName><![CDATA[//*[@placeholder='Email Address']]]></WUserName>
+ <WPassword><![CDATA[//*[@id='join-login']/form/div[2]/input]]></WPassword>
+ <WLogin><![CDATA[//*[@id='join-login']/form/div[4]/button[2]]]></WLogin>
+ <CloseFooter><![CDATA[//*[@id='footer_cta']/span/span]]></CloseFooter>
+ <Star><![CDATA[//*[@id='wh-body-inner']/div[2]/div[3]/div[1]/div/a[5]]]></Star>
+ <ReviewdroDown><![CDATA[//*[@id='reviewform']/div[1]/div/div]]></ReviewdroDown>
+ <SelectOption><![CDATA[//*[@id='reviewform']/div[1]/div/ul/li[2]/a]]></SelectOption>
+ <Review><![CDATA[//*[@id='review-content']]]></Review>
+ <ReviewStar><![CDATA[//*[@id='overallRating']/a[5]]]></ReviewStar>
+ <Submit><![CDATA[//*[contains(@value,'Submit')]]]></Submit>
+ 
+ </WalletHub>
+</Locators>  
