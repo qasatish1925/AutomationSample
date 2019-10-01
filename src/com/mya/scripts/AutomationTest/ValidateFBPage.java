@@ -21,7 +21,7 @@ public class ValidateFBPage extends DriverTestCase
 		helpers = new ApplicationHelper(getWebDriver());
 
 		//variables
-qa
+
 		String Post = "Hello World" +getRandomInteger(1, 9999);
 
 		ExecutionLog.LogAddClass(this.getClass().getName() + " and Test method " +Thread.currentThread().getStackTrace()[1].getMethodName());
